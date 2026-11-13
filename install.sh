@@ -23,4 +23,9 @@ curl -fsSL "$ARCHIVE_URL" | tar -xz -C "$work"
 rm -rf "$DEST"
 mv "$work/machine-setup-$BRANCH" "$DEST"
 
-bash "$DEST/mac/setup.sh" "$@" </dev/tty
+# Under `curl | bash`, stdin is the script itself; give setup the keyboard instead.
+if { : </dev/tty; } 2>/dev/null; then
+  bash "$DEST/mac/setup.sh" "$@" </dev/tty
+else
+  bash "$DEST/mac/setup.sh" "$@"
+fi
