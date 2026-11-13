@@ -1,0 +1,25 @@
+# Mac apps installed by Homebrew. Steam is installed earlier, on its own,
+# so you can log in while everything else installs.
+
+# CLI tools (needed for skills and default browser)
+brew "git"
+brew "gh"
+brew "node"
+brew "defaultbrowser"
+
+# Apps
+cask "slack"
+cask "bettertouchtool"
+cask "discord"
+cask "claude"
+cask "claude-code"
+cask "chatgpt"          # Codex desktop now lives inside the ChatGPT app
+cask "t3-code"
+cask "logitech-g-hub"
+cask "flux-app"
+cask "tailscale-app"
+cask "spotify"
+
+# Not in Homebrew, installed by mac/steps/apps.sh:
+#   Dia  (direct DMG from diabrowser.com)
+#   Navi (latest GitHub release of donovanhiland/navi)

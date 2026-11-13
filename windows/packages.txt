@@ -1,0 +1,21 @@
+# Windows apps installed by winget, in this order.
+# Format: <winget package id> [source]   (source defaults to winget)
+# Steam, Riot games and the Jagex Launcher are handled separately in windows/steps.
+
+# Dev tools (needed for Claude skills)
+Git.Git
+GitHub.cli
+OpenJS.NodeJS.LTS
+Anthropic.ClaudeCode
+
+# Apps
+SlackTechnologies.Slack
+Discord.Discord
+Anthropic.Claude
+OpenAI.ChatGPT            # Codex desktop now lives inside the ChatGPT app
+T3Tools.T3Code
+Logitech.GHUB
+flux.flux
+Tailscale.Tailscale
+9NCBCSZSJRSB  msstore     # Spotify (Store build; the winget build refuses to install as admin)
+Docker.DockerDesktop

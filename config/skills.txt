@@ -1,0 +1,5 @@
+# Claude Code skill repos installed globally (~/.claude/skills) on every machine.
+# Format: <github owner/repo>
+mattpocock/skills
+t3dotgg/tstack
+heygen-com/hyperframes

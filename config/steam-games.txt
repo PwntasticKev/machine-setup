@@ -1,0 +1,13 @@
+# Steam games queued for install after you log into Steam.
+# Format: <app id> <platforms> <name>
+#   platforms: comma-separated list of windows and/or mac
+# Find an app id in the store URL: store.steampowered.com/app/<app id>/
+240     windows      Counter-Strike: Source
+730     windows      Counter-Strike 2
+739630  windows      Phasmophobia
+252950  windows      Rocket League
+4704690 windows      MECCHA CHAMELEON
+1374490 windows      RuneScape: Dragonwilds
+976730  windows      Halo: The Master Chief Collection
+892970  windows,mac  Valheim
+714010  windows      Aimlabs
